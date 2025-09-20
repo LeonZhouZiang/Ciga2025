@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d75c3ee9ffc540abfadd978b9de4c, type: 3}
+  m_Name: CoffeeShop
+  m_EditorClassIdentifier: 
+  cardName: Coffee shop
+  cardSprite: {fileID: 21300000, guid: 9add4e0e51b6e45488f9d5f96b5beec2, type: 3}
+  TypeName: Card
+  description: Be seen everywhere
+  consumeMethods:
+  - inputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: f147e3e7de457e5439ee427efebd7ba8, type: 2}
+      probability: 1
+      minInclusive: 1
+      maxExclusive: 2
+    time: 1
+  - inputCard: {fileID: 11400000, guid: f147e3e7de457e5439ee427efebd7ba8, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+      probability: 1
+      minInclusive: 2
+      maxExclusive: 4
+    time: 1

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d75c3ee9ffc540abfadd978b9de4c, type: 3}
+  m_Name: Deck1
+  m_EditorClassIdentifier: 
+  cardName: Deck1
+  cardSprite: {fileID: -8297995299998033363, guid: 18b7de2d5014f1242a86d53a8af9e6b2, type: 3}
+  TypeName: CardDeck
+  description: Find a job
+  consumeMethods:
+  - inputCard: {fileID: 11400000, guid: 8f80d06d318c05c41a2a5bd699b4c17b, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 195f410a08e11ae4088c5c89c0f6fe08, type: 2}
+      probability: 0.8
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: 455d0d70f78c61a49a5630d0fbdf6983, type: 2}
+      probability: 0.2
+      minInclusive: 1
+      maxExclusive: 2
+    time: 0

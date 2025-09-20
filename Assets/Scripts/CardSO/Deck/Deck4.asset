@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d75c3ee9ffc540abfadd978b9de4c, type: 3}
+  m_Name: Deck4
+  m_EditorClassIdentifier: 
+  cardName: Deck4
+  cardSprite: {fileID: -8297995299998033363, guid: 18b7de2d5014f1242a86d53a8af9e6b2, type: 3}
+  TypeName: CardDeck
+  description: Investment
+  consumeMethods:
+  - inputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 4967cb76e4d63cf4e95229113c7fe0a3, type: 2}
+      probability: 0.2
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: ae69b1044f669ac4090fc04247756698, type: 2}
+      probability: 0.4
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: c96991797c82f284e8f05bb2f4813959, type: 2}
+      probability: 0.4
+      minInclusive: 1
+      maxExclusive: 2
+    time: 0
+  - inputCard: {fileID: 11400000, guid: 8f80d06d318c05c41a2a5bd699b4c17b, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 4967cb76e4d63cf4e95229113c7fe0a3, type: 2}
+      probability: 0.2
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: ae69b1044f669ac4090fc04247756698, type: 2}
+      probability: 0.4
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: c96991797c82f284e8f05bb2f4813959, type: 2}
+      probability: 0.4
+      minInclusive: 1
+      maxExclusive: 2
+    time: 0

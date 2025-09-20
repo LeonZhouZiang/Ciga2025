@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d75c3ee9ffc540abfadd978b9de4c, type: 3}
+  m_Name: Work
+  m_EditorClassIdentifier: 
+  cardName: Work
+  cardSprite: {fileID: 1309620139, guid: 60e93d5dbcbba624eb14083b557c1cd0, type: 3}
+  TypeName: Card
+  description: Flesh of captialism
+  consumeMethods:
+  - inputCard: {fileID: 11400000, guid: 8f80d06d318c05c41a2a5bd699b4c17b, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+      probability: 1
+      minInclusive: 1
+      maxExclusive: 3
+    time: 2
+  - inputCard: {fileID: 11400000, guid: 98d109f3e0507244cbea970d08624a5e, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+      probability: 0.35
+      minInclusive: 3
+      maxExclusive: 7
+    - outputCard: {fileID: 11400000, guid: 606c1c7f8c700284cab8a8f98effd5ca, type: 2}
+      probability: 0.35
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: b5d9373421e667d4b9f7a84542b17d33, type: 2}
+      probability: 0.3
+      minInclusive: 1
+      maxExclusive: 2
+    time: 3
+  - inputCard: {fileID: 11400000, guid: 4528e598bfd33784ea258b153666aa6b, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+      probability: 0.35
+      minInclusive: 3
+      maxExclusive: 7
+    - outputCard: {fileID: 11400000, guid: 606c1c7f8c700284cab8a8f98effd5ca, type: 2}
+      probability: 0.35
+      minInclusive: 1
+      maxExclusive: 2
+    - outputCard: {fileID: 11400000, guid: b5d9373421e667d4b9f7a84542b17d33, type: 2}
+      probability: 0.3
+      minInclusive: 1
+      maxExclusive: 2
+    time: 3

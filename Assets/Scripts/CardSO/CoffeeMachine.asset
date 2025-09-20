@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d75c3ee9ffc540abfadd978b9de4c, type: 3}
+  m_Name: CoffeeMachine
+  m_EditorClassIdentifier: 
+  cardName: Coffee machine
+  cardSprite: {fileID: 21300000, guid: cc84faf8ef97ac441b50371cf8d16eef, type: 3}
+  TypeName: Card
+  description: Want to eat coffee beans
+  consumeMethods:
+  - inputCard: {fileID: 11400000, guid: 90b0c8d357bff094faba96d841545f8d, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: f147e3e7de457e5439ee427efebd7ba8, type: 2}
+      probability: 1
+      minInclusive: 1
+      maxExclusive: 3
+    time: 0.8

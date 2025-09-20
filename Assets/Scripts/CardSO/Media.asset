@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d75c3ee9ffc540abfadd978b9de4c, type: 3}
+  m_Name: Media
+  m_EditorClassIdentifier: 
+  cardName: Hot news
+  cardSprite: {fileID: 21300000, guid: 90d6d5b30c078824983633864ef2f410, type: 3}
+  TypeName: Card
+  description: Voice of of captialism
+  consumeMethods:
+  - inputCard: {fileID: 11400000, guid: b5d9373421e667d4b9f7a84542b17d33, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+      probability: 1
+      minInclusive: 4
+      maxExclusive: 7
+    time: 1
+  - inputCard: {fileID: 11400000, guid: ae69b1044f669ac4090fc04247756698, type: 2}
+    outputs:
+    - outputCard: {fileID: 11400000, guid: 0666ebc2895f41d4f84cdaf7d0f1f8cb, type: 2}
+      probability: 0.5
+      minInclusive: 5
+      maxExclusive: 8
+    - outputCard: {fileID: 0}
+      probability: 0.5
+      minInclusive: 0
+      maxExclusive: 1
+    time: 1
